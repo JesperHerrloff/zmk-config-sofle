@@ -61,6 +61,7 @@ The firmware for my Sofle build is customized using ZMK, modified from PandaKB's
 ## Gallery
 
 Here are some photos from different stages of the build.
+![Build Stage 1](images/1D9D5923-53C0-4D88-AE8C-32B3E13EC2B7.jpeg)
 
 ## Future Improvements
 
