@@ -1,5 +1,6 @@
 # My Sofle Keyboard Build and Firmware
 
+![Sofle Keyboard Build current state](images/FB78CFA3-6DB5-4279-ACEB-E69BED74633C_1_102_o.jpeg)
 This is my Sofle build, featuring RGB lighting, wireless capability, ZMK firmware, knob, OLED support, and a custom case. It's a very budget-friendly build costing around €80 without keycaps and switches. This README provides an overview of the build process, helpful tips, and links to resources to help you complete your own Sofle build.
 
 ## Introduction
