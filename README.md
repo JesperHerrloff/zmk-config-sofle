@@ -39,7 +39,6 @@ Some helpful tips for assembling your Sofle split keyboard:
 - **Preparation:**\* Ensure all components are properly seated before soldering.\*
 - **Diode Orientation:**\* Double-check the orientation of diodes and LEDs.\*
 - **Use Flux:**\* Flux makes soldering easier and cleaner.\*
-- **Stabilizers:**\* Lubing your stabilizers will make the typing experience smoother.\*
 
 ## Firmware and Configuration
 
