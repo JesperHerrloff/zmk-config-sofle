@@ -22,7 +22,10 @@ I will create a custom case for the Sofle keyboard, which will be available for 
 
 - **Download the Case Files:**\* \*[Link to case files](/case)
 - **Printing Tips:**\* Recommended material is ABS or PETG for strength and durability.\*
+
   - Consider using a 0.1 mm layer height to minimize visible layer lines for a smoother finish.
+
+  ![Current Progress](images/image.png)
 
 ## Build Guide
 
