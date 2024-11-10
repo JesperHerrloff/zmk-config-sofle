@@ -25,7 +25,7 @@ I will create a custom case for the Sofle keyboard, which will be available for 
 
   - Consider using a 0.1 mm layer height to minimize visible layer lines for a smoother finish.
 
-  ![Current Progress](images/image.png)
+  ![Current Progress](images/image_WIP_Case.png)
 
 ## Build Guide
 
