@@ -26,6 +26,8 @@ I will create a custom case for the Sofle keyboard, which will be available for 
   - Consider using a 0.1 mm layer height to minimize visible layer lines for a smoother finish.
 
   ![Current Progress](images/image_WIP_Case.png)
+  ![Tenting Version](images/schematic_with_tenting.png)
+  This is the tenting version. The tenting will be removable and attach with magnets.
 
 ## Build Guide
 
