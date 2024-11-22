@@ -27,7 +27,6 @@
                 , <&macro_release &kp GUI>
                 ;
         };
-    macros {
         M_CUT: M_CUT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -37,7 +36,6 @@
                 , <&macro_release &kp GUI>
                 ;
         };
-    macros {
         M_COPY: M_COPY {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -47,7 +45,6 @@
                 , <&macro_release &kp GUI>
                 ;
         };
-    macros {
         M_PASTE: M_PASTE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
