@@ -22,36 +22,36 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI>
+                = <&macro_press &kp LGUI>
                 , <&macro_tap &kp C>
-                , <&macro_release &kp GUI>
+                , <&macro_release &kp LGUI>
                 ;
         };
         M_CUT: M_CUT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI>
+                = <&macro_press &kp LGUI>
                 , <&macro_tap &kp X>
-                , <&macro_release &kp GUI>
+                , <&macro_release &kp LGUI>
                 ;
         };
         M_COPY: M_COPY {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI>
+                = <&macro_press &kp LGUI>
                 , <&macro_tap &kp C>
-                , <&macro_release &kp GUI>
+                , <&macro_release &kp LGUI>
                 ;
         };
         M_PASTE: M_PASTE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI>
+                = <&macro_press &kp LGUI>
                 , <&macro_tap &kp V>
-                , <&macro_release &kp GUI>
+                , <&macro_release &kp LGUI>
                 ;
         };
     };
