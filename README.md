@@ -11,7 +11,7 @@ This repository is dedicated to my Sofle split keyboard build, featuring a fully
 
 Below are links to key components used in the build:
 
-- [MiFuny SofleMX Kit3 Wireless](https://a.aliexpress.com/_EzIsfqt)
+- [PandaKB Sofle RGB MX PCB Kit3 Wireless](https://pandakb.com/products/pcb-kit/sofle-rgb-mx-pcb-kit/)
 - [PS3 Batteries](https://amzn.eu/d/dv2OsZh)
 - Switches: Kailh Deep Sea Silent Pro Box Linear Islet
 - Keycaps: Some aliexpress PBT Keycaps
@@ -68,7 +68,7 @@ Some helpful tips for assembling your Sofle split keyboard:
 - **Diode Orientation:**\* Double-check the orientation of diodes and LEDs.\*
 - **Use Flux:**\* Flux makes soldering easier and cleaner.\*
 
-## Firmware and Configuration
+## Firmware and Configurationß
 
 The firmware for my Sofle build is customized using ZMK, modified from PandaKB's config. The configuration files can be found in the \`\` folder.
 
