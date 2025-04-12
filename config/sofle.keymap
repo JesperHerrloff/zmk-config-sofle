@@ -100,13 +100,13 @@
 // |       |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |  0   |  BKSPC  |
 // |   `   |  !  |  "  |  #   |  €   |  %   |                   |  &   |  /    |  (    |  )   |   =  |  ?      |
 // |       |     |  @  |  £   |  $   |      |                   |  ^   |  |    |  {    |  }   |   '  |   ~     |
-// |  CLCK |  <  |  >  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \  |   *     |
+// |  CLCK |  <  |  >  |  +   |      |      |        |  |       |  [   |  ]    |  ;    |  :   |   \  |   *     |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
 &trans      &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                          &kp N6        &kp N7        &kp N8          &kp N9       &kp N0      &trans
 &kp SE_BKTC &kp SE_EXLM &kp SE_DQUO &kp SE_HASH &kp SE_EUR  &kp SE_PERC                     &kp SE_AMPR   &kp SE_SLSH   &kp SE_LPRN     &kp SE_RPRN  &kp SE_EQL  &kp SE_QUES
 &trans      &trans      &kp SE_AT   &kp SE_PND  &kp SE_DLR  &trans                          &kp SE_CIRC   &kp SE_PIPE   &kp SE_LCBR     &SE_RCBR     &SE_QUOT    &kp SE_TILD
-&trans      &kp SE_GT   &kp SE_LT   &kp KP_PLUS &kp LBRC    &kp RBRC   &trans &trans        &kp SE_RLBC   &kp SE_RLBC   &kp SE_SCLN     &kp SE_COLON &kp SE_BSLH &kp SE_ASTR
+&trans      &kp SE_GT   &kp SE_LT   &kp KP_PLUS &trans      &trans     &trans &trans        &kp SE_LBLC   &kp SE_RBLC   &kp SE_SCLN     &kp SE_COLON &kp SE_BSLH &kp SE_ASTR
                         &trans      &trans      &trans      &trans     &trans &trans        &trans        &trans        &trans          &trans
             >;
 
