@@ -83,10 +83,10 @@
 // |  CTRL   |  Z  |  X  |  C   |  V   |  B    |  MUTE  |  | PLAY_PAUSE |  N   |  M    |  ,    |  .   |   /   | SHIFT   |
 //                 | CTRL| ALT  | GUI  | SYMBOL|  SPACE |  | ENTER      | RAISE|  =    | FN_Layer | -    |
             bindings = <
-&kp ESC   &kp N1    &kp N2      &kp N3      &kp N4       &kp N5                                         &kp N6     &kp N7       &kp N8       &kp N9      &kp N0      &kp BSPC
-&kp TAB   &kp SE_Q  &kp SE_W    &kp SE_E    &kp SE_R     &kp SE_T                                       &kp SE_Y   &kp SE_U     &kp SE_I     &kp SE_O    &kp SE_P    &kp SE_AA
-&kp LSHFT &kp SE_A  &kp SE_S    &kp SE_D    &kp SE_F     &kp SE_G                                       &kp SE_H   &kp SE_J     &kp SE_K     &kp SE_L    &kp SE_OE   &kp SE_AE
-&kp LCTRL &kp SE_Z  &kp SE_X    &kp SE_C    &kp SE_V     &kp SE_B      &kp C_MUTE  &kp C_PLAY_PAUSE     &kp SE_N   &kp SE_M     &kp COMMA    &kp DOT     &kp FSLH    &kp RSHFT
+&kp ESC   &kp N1    &kp N2      &kp N3      &kp N4       &kp N5                                         &kp N6     &kp N7       &kp N8           &kp N9      &kp N0      &kp BSPC
+&kp TAB   &kp Q     &kp W       &kp E       &kp R        &kp T                                          &kp Y      &kp U        &kp I            &kp O       &kp P       &kp SE_AA
+&kp LSHFT &kp A     &kp S       &kp D       &kp F        &kp G                                          &kp H      &kp J        &kp K            &kp L       &kp SE_OE   &kp SE_AE
+&kp LCTRL &kp Z     &kp X       &kp C       &kp V        &kp B      &kp C_MUTE  &kp C_PLAY_PAUSE        &kp N      &kp M        &kp COMMA        &kp DOT     &kp FSLH    &kp RSHFT
                     &kp LCTRL   &kp LALT    &kp LGUI     &mo SYMBOL    &kp SPACE   &kp RET              &mo RAISE  &kp EQUAL    &mo FUN_LAYER    &kp MINUS
             >;
 
