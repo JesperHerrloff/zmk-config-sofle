@@ -103,10 +103,10 @@
 // |  CLCK |  <  |  >  |  +   |  ¨   |  ´   |        |  |       |  [   |  ]    |  ;    |  :   |   \  |   *     |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans       &kp SE_N1   &kp SE_N2   &kp SE_N3          &kp SE_N4     &kp SE_N5                       &kp SE_N6     &kp SE_N7     &kp SE_N8       &kp SE_N9        &kp SE_N0  &trans
+&trans       &kp SE_N1   &kp SE_N2   &kp SE_N3          &kp SE_N4     &kp SE_N5                       &kp SE_N6     &kp SE_N7     &kp SE_N8       &kp SE_N9    &kp SE_N0      &trans
 &kp SE_GRAVE &kp SE_EXCL &kp SE_DQT  &kp SE_HASH        &kp SE_EURO   &kp SE_PRCNT                    &kp SE_AMPS   &kp SE_FSLH   &kp SE_LPAR     &kp SE_RPAR  &kp SE_EQUAL   &kp SE_QMARK
 &trans       &trans      &kp SE_AT   &kp SE_POUND_SIGN  &kp SE_DLLR   &kp SE_CURREN                   &kp SE_CARET  &kp SE_PIPE   &kp SE_LBRC     &kp SE_RBRC  &kp SE_SQT     &kp SE_TILDE
-&trans       &kp SE_GT   &kp SE_LT   &kp SE_PLUS        &kp SE_UMLAUT &kp SE_ACUTE     &trans &trans  &kp SE_LBKT   &kp SE_RBKT   &kp SE_SEMI     &kp SE_COlON &kp SE_BSLH    &kp SE_STAR
+&trans       &kp SE_GT   &kp SE_LT   &kp SE_PLUS        &kp SE_UMLAUT &kp SE_ACUTE     &trans &trans  &kp SE_LBKT   &kp SE_RBKT   &kp SE_SEMI     &kp SE_COLON &kp SE_BSLH    &kp SE_STAR
                         &trans      &trans        &trans         &trans           &trans &trans  &trans        &trans        &trans          &trans
             >;
 
