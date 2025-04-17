@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <locale/keys_se.h>
+#include "keys_sv.h"
 
 #define BASE 0
 #define SYMBOL 1
@@ -83,11 +83,11 @@
 // |  CTRL   |  Z  |  X  |  C   |  V   |  B    |  MUTE  |  | PLAY_PAUSE |  N   |  M    |  ,    |  .   |   /   | SHIFT   |
 //                 | CTRL| ALT  | GUI  | SYMBOL|  SPACE |  | ENTER      | RAISE|  =    | FN_Layer | -    |
             bindings = <
-&kp ESC   &kp SE_N1    &kp SE_N2      &kp SE_N3      &kp SE_N4       &kp SE_N5                                         &kp SE_N6     &kp SE_N7       &kp SE_N8           &kp SE_N9      &kp SE_N0      &kp BSPC
-&kp TAB   &kp SE_Q     &kp SE_W       &kp SE_E       &kp SE_R        &kp SE_T                                          &kp SE_Y      &kp SE_U        &kp SE_I            &kp SE_O       &kp SE_P       &kp SE_A_RING
-&kp LSHFT &kp SE_A     &kp SE_S       &kp SE_D       &kp SE_F        &kp SE_G                                          &kp SE_H      &kp SE_J        &kp SE_K            &kp SE_L       &kp SE_O_UMLAUT   &kp SE_A_UMLAUT
-&kp LCTRL &kp SE_Z     &kp SE_X       &kp SE_C       &kp SE_V        &kp SE_B      &kp C_MUTE  &kp C_PLAY_PAUSE        &kp SE_N      &kp SE_M        &kp SE_COMMA        &kp SE_DOT     &kp SE_FSLH    &kp RSHFT
-                    &kp LCTRL   &kp LALT    &kp LGUI     &mo SYMBOL    &kp SPACE   &kp RET              &mo RAISE  &kp EQUAL    &mo FUN_LAYER    &kp SE_MINUS
+&kp ESC   &kp SV_N1    &kp SV_N2      &kp SV_N3      &kp SV_N4       &kp SV_N5                                         &kp SV_N6     &kp SV_N7       &kp SV_N8           &kp SV_N9      &kp SV_N0      &kp BSPC
+&kp TAB   &kp SV_Q     &kp SV_W       &kp SV_E       &kp SV_R        &kp SV_T                                          &kp SV_Y      &kp SV_U        &kp SV_I            &kp SV_O       &kp SV_P       &kp SV_A_RING
+&kp LSHFT &kp SV_A     &kp SV_S       &kp SV_D       &kp SV_F        &kp SV_G                                          &kp SV_H      &kp SV_J        &kp SV_K            &kp SV_L       &kp SV_O_UMLAUT   &kp SV_A_UMLAUT
+&kp LCTRL &kp SV_Z     &kp SV_X       &kp SV_C       &kp SV_V        &kp SV_B      &kp C_MUTE  &kp C_PLAY_PAUSE        &kp SV_N      &kp SV_M        &kp SV_COMMA        &kp SV_DOT     &kp SV_FSLH    &kp RSHFT
+                    &kp LCTRL   &kp LALT    &kp LGUI     &mo SYMBOL    &kp SPACE   &kp RET              &mo RAISE  &kp EQUAL    &mo FUN_LAYER    &kp SV_MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -103,10 +103,10 @@
 // |  CLCK |  <  |  >  |  +   |  ¨   |  ´   |        |  |       |  [   |  ]    |  ;    |  :   |   \  |   *     |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans       &kp SE_N1   &kp SE_N2   &kp SE_N3          &kp SE_N4     &kp SE_N5                       &kp SE_N6     &kp SE_N7     &kp SE_N8       &kp SE_N9    &kp SE_N0      &trans
-&kp SE_GRAVE &kp SE_EXCL &kp SE_DQT  &kp SE_HASH        &kp SE_EURO   &kp SE_PRCNT                    &kp SE_AMPS   &kp SE_FSLH   &kp SE_LPAR     &kp SE_RPAR  &kp SE_EQUAL   &kp SE_QMARK
-&trans       &trans      &kp SE_AT   &kp SE_POUND_SIGN  &kp SE_DLLR   &kp SE_CURREN                   &kp SE_CARET  &kp SE_PIPE   &kp SE_LBRC     &kp SE_RBRC  &kp SE_SQT     &kp SE_TILDE
-&trans       &kp SE_GT   &kp SE_LT   &kp SE_PLUS        &kp SE_UMLAUT &kp SE_ACUTE     &trans &trans  &kp SE_LBKT   &kp SE_RBKT   &kp SE_SEMI     &kp SE_COLON &kp SE_BSLH    &kp SE_STAR
+&trans       &kp SV_N1   &kp SV_N2   &kp SV_N3          &kp SV_N4     &kp SV_N5                       &kp SV_N6     &kp SV_N7     &kp SV_N8       &kp SV_N9    &kp SV_N0      &trans
+&kp SV_GRAVE &kp SV_EXCL &kp SV_DQT  &kp SV_HASH        &kp SV_EURO   &kp SV_PRCNT                    &kp SV_AMPS   &kp SV_FSLH   &kp SV_LPAR     &kp SV_RPAR  &kp SV_EQUAL   &kp SV_QMARK
+&trans       &trans      &kp SV_AT   &kp SV_POUND_SIGN  &kp SV_DLLR   &kp SV_CURREN                   &kp SV_CARET  &kp SV_PIPE   &kp SV_LBRC     &kp SV_RBRC  &kp SV_SQT     &kp SV_TILDE
+&trans       &kp SV_GT   &kp SV_LT   &kp SV_PLUS        &kp SV_UMLAUT &kp SV_ACUTE     &trans &trans  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SEMI     &kp SV_COLON &kp SV_BSLH    &kp SV_STAR
                         &trans      &trans        &trans         &trans           &trans &trans  &trans        &trans        &trans          &trans
             >;
 
