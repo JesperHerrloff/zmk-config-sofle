@@ -118,11 +118,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans       &kp SV_N1      &kp SV_N2   &kp SV_N3          &kp SV_N4     &kp SV_N5                       &kp SV_N6     &kp SV_N7     &kp SV_N8       &kp SV_N9    &kp SV_N0      &trans
-&kp SV_GRAVE &kp SV_EXCL    &kp SV_DQT  &kp SV_HASH        &kp SV_EURO   &kp SV_PRCNT                    &kp SV_AMPS   &kp SV_FSLH   &kp SV_LPAR     &kp SV_RPAR  &kp SV_EQUAL   &kp SV_QMARK
-&trans       &kp SV_STAR    &kp SV_AT   &kp SV_POUND_SIGN  &kp SV_DLLR   &kp SV_CURREN                   &kp SV_CARET  &kp SV_PIPE   &kp SV_LBRC     &kp SV_RBRC  &kp SV_SQT     &kp SV_TILDE
-&trans       &kp SV_EQUAL   &kp SV_GT   &kp SV_PLUS        &kp SV_LT     &kp SV_GT        &trans &trans  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SEMI     &kp SV_COLON &kp SV_BSLH    &kp SV_STAR
-                                &trans      &trans        &trans         &trans           &trans &trans  &trans        &trans        &trans          &trans
+&trans       &kp SV_N1      &kp SV_N2       &kp SV_N3          &kp SV_N4     &kp SV_N5                       &kp SV_N6     &kp SV_N7     &kp SV_N8       &kp SV_N9    &kp SV_N0      &trans
+&kp SV_GRAVE &kp SV_EXCL    &kp SV_DQT      &kp SV_HASH        &kp SV_EURO   &kp SV_PRCNT                    &kp SV_AMPS   &kp SV_FSLH   &kp SV_LPAR     &kp SV_RPAR  &kp SV_EQUAL   &kp SV_QMARK
+&trans       &kp SV_STAR    &kp SV_AT       &kp SV_POUND_SIGN  &kp SV_DLLR   &kp SV_ACUTE                    &kp SV_CARET  &kp SV_PIPE   &kp SV_LBRC     &kp SV_RBRC  &kp SV_SQT     &kp SV_TILDE
+&trans       &kp SV_EQUAL   &kp SV_UMLAUT   &kp SV_PLUS        &kp SV_LT     &kp SV_GT        &trans &trans  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SEMI     &kp SV_COLON &kp SV_BSLH    &kp SV_STAR
+                                    &trans      &trans        &trans         &trans           &trans &trans  &trans        &trans        &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
