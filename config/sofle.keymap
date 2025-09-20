@@ -173,8 +173,8 @@
             bindings = <
 &trans         &kp N1         &kp N2         &kp N3        &kp N4         &kp N5                           &kp N6         &kp N7        &kp N8         &kp N9           &kp N0            &trans
 &kp SV_GRAVE   &kp SV_EXCL    &kp SV_DQT     &kp SV_HASH   &kp SV_EURO    &kp SV_PRCNT                     &kp SV_AMPS    &kp SV_SLASH  &kp SV_LPAR    &kp SV_RPAR      &kp SV_EQUAL      &kp SV_QUESTION
-&trans         &kp SV_STAR    &kp SV_AT      &kp SV_SLASH  &kp SV_DOLLAR  &kp SV_BSLH                      &kp SV_CARET   &kp SV_PIPE   &kp SC_LBRC    &kp SV_RBRC      &kp SV_SQT        &kp SV_TILDE
-&trans         &kp SV_EQUAL   &kp SV_MINUS   &kp SV_PLUS   &kp SV_LT      &kp SV_GT      &trans    &trans  &kp SV_RBKT    &kp SV_LBKT   &kp SC_LT      &kp SV_GT        &kp SV_BSLH       &kp SV_STAR
+&trans         &kp SV_STAR    &kp SV_AT      &kp SV_SLASH  &kp SV_DOLLAR  &kp SV_BSLH                      &kp SV_CARET   &kp SV_PIPE   &kp SV_LBRC    &kp SV_RBRC      &kp SV_SQT        &kp SV_TILDE
+&trans         &kp SV_EQUAL   &kp SV_MINUS   &kp SV_PLUS   &kp SV_LT      &kp SV_GT      &trans    &trans  &kp SV_LBKT    &kp SV_RBKT   &kp SV_LT      &kp SV_GT        &kp SV_BSLH       &kp SV_STAR
                               &trans         &trans        &trans         &trans         &trans    &trans  &trans         &trans        &trans         &trans
             >;
 
