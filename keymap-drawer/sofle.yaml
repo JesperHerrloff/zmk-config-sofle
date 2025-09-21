@@ -16,12 +16,12 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - {t: E, h: Gui+Ctl+LA(LSHIFT}
+  - {t: E, h: 'Gui+Ctl+Alt+$$mdi:apple-keyboard-shift$$'}
   - R
   - T
   - Y
   - U
-  - {t: I, h: Gui+Ctl+LA(LSHIFT}
+  - {t: I, h: 'Gui+Ctl+Alt+$$mdi:apple-keyboard-shift$$'}
   - O
   - P
   - Å
@@ -40,7 +40,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
-  - {t: C, h: Alt+LC(LSHIFT}
+  - {t: C, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - V
   - B
   - MUTE
