@@ -148,7 +148,7 @@
           key-positions = <RM2 RM3>;
         };
         combo_lt {
-          bondings = <&kp SV_LT>;
+          bindings = <&kp SV_LT>;
           key-positions = <RB1 RB2>;
         };
         combo_gt {
