@@ -17,8 +17,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #include "includes/key-labels/sofle.h"
-#include "keys_sv.h"
-
+#ifndef KEYMAP_DRAWER
+  #include "keys_sv.h"
+#endif
 #include "includes/settings.dtsi"
 
 
