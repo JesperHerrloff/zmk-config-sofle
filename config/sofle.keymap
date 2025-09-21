@@ -21,7 +21,7 @@
   #include "keys_sv.h"
 #endif
 #include "includes/settings.dtsi"
-#include "includes/costom_keys.dtsi"
+#include "includes/custom_keys.dtsi"
 
 
 / {
