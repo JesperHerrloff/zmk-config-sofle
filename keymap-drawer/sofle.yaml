@@ -16,12 +16,12 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - {t: E, h: HYPER}
   - R
   - T
   - Y
   - U
-  - I
+  - {t: I, h: HYPER}
   - O
   - P
   - Å
@@ -40,7 +40,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
-  - C
+  - {t: C, h: MEH}
   - V
   - B
   - MUTE
