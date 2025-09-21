@@ -163,7 +163,7 @@
 //    ╭───────┬───────────────┬──────────────┬──────────────┬─────────────┬───────────╮                                     ╭──────────┬─────────────┬──────────────┬──────────────┬───────────────┬──────╮
 //    │  ESC  │       1       │      2       │      3       │      4      │     5     │                                     │    6     │      7      │      8       │      9       │       0       │ BSPC │
 //    ├───────┼───────────────┼──────────────┼──────────────┼─────────────┼───────────┤                                     ├──────────┼─────────────┼──────────────┼──────────────┼───────────────┼──────┤
-//    │  TAB  │       Q       │      W       │ &hml HYPER E │      R      │     T     │                                     │    Y     │      U      │ &hml HYPER I │      O       │       P       │  Å   │
+//    │  TAB  │       Q       │      W       │ &hml HYPER E │      R      │     T     │                                     │    Y     │      U      │ &hmr HYPER I │      O       │       P       │  Å   │
 //    ├───────┼───────────────┼──────────────┼──────────────┼─────────────┼───────────┤                                     ├──────────┼─────────────┼──────────────┼──────────────┼───────────────┼──────┤
 //    │ LSFT  │ &hml LSHIFT A │ &hml LCTRL S │ &hml LALT D  │ &hml LGUI F │     G     │                                     │    H     │ &hmr RGUI J │ &hmr RALT K  │ &hmr LCTRL L │ &hmr RSHIFT Ö │  Ä   │
 //    ├───────┼───────────────┼──────────────┼──────────────┼─────────────┼───────────┼──────────────╮       ╭──────────────┼──────────┼─────────────┼──────────────┼──────────────┼───────────────┼──────┤
@@ -172,7 +172,7 @@
 //                            │    LCTRL     │     LALT     │    LGUI     │ MO SYMBOL │ LT NUM SPACE │       │ LT MOUSE ENT │ MO RAISE │      =      │ MO FUN_LAYER │      -       │
 //                            ╰──────────────┴──────────────┴─────────────┴───────────┴──────────────╯       ╰──────────────┴──────────┴─────────────┴──────────────┴──────────────╯
   &kp ESC     &kp N1          &kp N2         &kp N3         &kp N4        &kp N5                                                  &kp N6      &kp N7         &kp N8          &kp N9         &kp N0                    &kp BSPC
-  &kp TAB     &kp Q           &kp W          &hml HYPER E   &kp R         &kp T                                                   &kp Y       &kp U          &hml HYPER I    &kp O          &kp P                     &kp SV_A_RING
+  &kp TAB     &kp Q           &kp W          &hml HYPER E   &kp R         &kp T                                                   &kp Y       &kp U          &hmr HYPER I    &kp O          &kp P                     &kp SV_A_RING
   &kp LSHFT   &hml LSHIFT A   &hml LCTRL S   &hml LALT D    &hml LGUI F   &kp G                                                   &kp H       &hmr RGUI J    &hmr RALT K     &hmr LCTRL L   &hmr RSHIFT SV_O_UMLAUT   &kp SV_A_UMLAUT
   &kp LCTRL   &kp Z           &kp X          &hml MEH C     &kp V         &kp B        &kp C_MUTE              &kp C_PLAY_PAUSE   &kp N       &kp M          &kp COMMA       &kp DOT        &kp SV_SLASH              &kp RSHFT
                               &kp LCTRL      &kp LALT       &kp LGUI      &mo SYMBOL   &lt NUM SPACE           &lt MOUSE RET      &mo RAISE   &kp SV_EQUAL   &mo FUN_LAYER   &kp SV_MINUS

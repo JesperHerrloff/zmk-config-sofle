@@ -1,2 +1,2 @@
-#define HYPER LG(LC(LA(LS())))
-#define MEH LA(LC(LS()))
+#define HYPER LG(LC(LA(LSHIFT))
+#define MEH LA(LC(LSHIFT)
