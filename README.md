@@ -21,6 +21,10 @@ Make sure to read through the guide thoroughly before starting your build.
 - Will add specific Vim Layer for productivity
 - Modularize the configuration to make it more maintainable and easier to customize.
 
+## Keymap Overview
+
+![keymap](keymap-drawer/sofle.svg)
+
 ## Contributing
 
 Feel free to contribute by suggesting improvements, creating issues, or submitting pull requests. I'd love to hear your thoughts or see your own builds!

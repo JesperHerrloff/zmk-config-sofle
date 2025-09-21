@@ -49,6 +49,81 @@ parse_config:
     "&bt BT_SEL 2": BT 3
     "&bt BT_SEL 3": BT 4
     "&bt BT_SEL 4": BT 5
+    SV_A_RING: "Å"
+    SV_A_UMLAUT: "Ä"
+    SV_O_UMLAUT: "Ö"
+    SV_EXCLAMATION: "!"
+    SV_EXCL: "!"
+    SV_AT_SIGN: "@"
+    SV_AT: "@"
+    SV_HASH: "#"
+    SV_POUND: "#"
+    SV_DOLLAR: $
+    SV_DLLR: $
+    SV_PERCENT: "%"
+    SV_PRCNT: "%"
+    SV_CARET: ^
+    SV_AMPERSAND: "&"
+    SV_AMPS: "&"
+    SV_ASTERISK: "*"
+    SV_ASTRK: "*"
+    SV_STAR: "*"
+    SV_LEFT_PARENTHESIS: (
+    SV_LPAR: (
+    SV_RIGHT_PARENTHESIS: )
+    SV_RPAR: )
+    SV_EQUAL: "="
+    SV_PLUS: +
+    SV_MINUS: "-"
+    SV_UNDERSCORE: _
+    SV_UNDER: _
+    SV_SLASH: /
+    SV_FSLH: /
+    SV_QUESTION: "?"
+    SV_QMARK: "?"
+    SV_BACKSLASH: \
+    SV_BSLH: \
+    SV_PIPE: "|"
+    NON_US_BACKSLASH: \
+    PIPE2: "|"
+    NON_US_BSLH: "|"
+    SV_SEMICOLON: ;
+    SV_SEMI: ;
+    SV_COLON: ":"
+    SV_SINGLE_QUOTE: "'"
+    SV_SQT: "'"
+    SV_APOSTROPHE: "'"
+    SV_APOS: "'"
+    SV_DOUBLE_QUOTES: '"'
+    SV_DQT: '"'
+    COMMA: ","
+    SV_LESS_THAN: <
+    SV_LT: <
+    PERIOD: .
+    DOT: .
+    SV_GREATER_THAN: ">"
+    SV_GT: ">"
+    SV_LEFT_BRACKET: "["
+    SV_LBKT: "["
+    SV_LEFT_BRACE: "{"
+    SV_LBRC: "{"
+    SV_RIGHT_BRACKET: "]"
+    SV_RBKT: "]"
+    SV_RIGHT_BRACE: "}"
+    SV_RBRC: "}"
+    SV_GRAVE: "`"
+    SV_TILDE: "~"
+    "&mmv MOVE_UP": 🖱️ ↑
+    "&mmv MOVE_DOWN": 🖱️ ↓
+    "&mmv MOVE_LEFT": 🖱️ ←
+    "&mmv MOVE_RIGHT": 🖱️ →
+    "&msc SCRL_UP": 🖱️ ⇈
+    "&msc SCRL_DOWN": 🖱️ ⇊
+    "&msc SCRL_LEFT": 🖱️ ⇐
+    "&msc SCRL_RIGHT": 🖱️ ⇒
+    "&mkp LCLK": 🖱️L
+    "&mkp RCLK": 🖱️R
+    "&mkp MCLK": 🖱️M
   sticky_label: $$mdi:circle-small$$
   toggle_label: $$mdi:toggle-switch$$
   tap_toggle_label: tap-toggle

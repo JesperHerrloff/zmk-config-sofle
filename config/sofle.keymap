@@ -21,13 +21,6 @@
 
 #include "includes/settings.dtsi"
 
-#define BASE 0
-#define SYMBOL 1
-#define RAISE 2
-#define ADJUST 3
-#define FUN_LAYER 4
-#define MOUSE 5
-#define NUM 6
 
 
 / {
