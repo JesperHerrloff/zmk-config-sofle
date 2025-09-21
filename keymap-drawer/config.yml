@@ -112,6 +112,7 @@ parse_config:
     CLCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
+    EURO: "€"
     A_RING: "Å"
     A_UMLAUT: "Ä"
     O_UMLAUT: "Ö"
