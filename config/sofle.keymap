@@ -22,7 +22,7 @@
 #endif
 #include "includes/settings.dtsi"
 #include "includes/custom_keys.dtsi"
-
+#include "includes/combos.dtsi"
 
 / {
     macros {
@@ -111,46 +111,6 @@
             if-layers = <SYMBOL RAISE>;
             then-layer = <ADJUST>;
         };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        combo_lbrc {
-            bindings = <&kp SV_LBRC>;
-            key-positions = <RT1 RT2>;
-        };
-
-        combo_rbrc {
-            bindings = <&kp SV_RBRC>;
-            key-positions = <RT2 RT3>;
-        };
-        combo_lbkt {
-          bindings = <&kp SV_LBKT>;
-          key-positions = <RT1 RM1>;
-        };
-        combo_rbkt {
-          bindings = <&kp SV_RBKT>;
-          key-positions = <RT3 RM3>;
-        };
-        combo_lpar {
-          bindings = <&kp SV_LPAR>;
-          key-positions = <RM1 RM2>;
-        };
-        combo_rpar {
-          bindings = <&kp SV_RPAR>;
-          key-positions = <RM2 RM3>;
-        };
-        combo_lt {
-          bindings = <&kp SV_LT>;
-          key-positions = <RB1 RB2>;
-        };
-        combo_gt {
-          bindings = <&kp SV_GT>;
-          key-positions = <RB2 RB3>;
-        };
-
-
     };
 
     keymap {

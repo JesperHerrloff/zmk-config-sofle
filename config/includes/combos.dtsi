@@ -6,7 +6,6 @@
             bindings = <&kp SV_LBRC>;
             key-positions = <RT1 RT2>;
         };
-
         combo_rbrc {
             bindings = <&kp SV_RBRC>;
             key-positions = <RT2 RT3>;
@@ -35,8 +34,5 @@
           bindings = <&kp SV_GT>;
           key-positions = <RB2 RB3>;
         };
-
-
     };
-  
 };
