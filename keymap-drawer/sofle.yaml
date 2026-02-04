@@ -47,7 +47,7 @@ layers:
   - PLAY PAUSE
   - N
   - M
-  - ','
+  - {t: ',', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
